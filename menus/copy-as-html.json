@@ -1,0 +1,29 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Copy current file to clipboard as HTML",
+        "command": "copy-as-html:copy"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "copy-as-html",
+          "submenu": [
+            {
+              "label": "Copy current file to clipboard as HTML",
+              "command": "copy-as-html:copy"
+            },{
+              "label": "Check selection",
+              "command": "copy-as-html:checkSelection"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

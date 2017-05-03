@@ -1,0 +1,6 @@
+{
+  "atom-workspace": {
+    "alt-a": "copy-as-html:copy",
+    "cmd-alt-a": "copy-as-html:checkSelection"
+  }
+}
