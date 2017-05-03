@@ -1,17 +1,25 @@
 {
   "name": "copy-as-html",
   "main": "./lib/copy-as-html.js",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Copy file or selected code as HTML, including the Atom syntax highlighting colors, to clipboard.",
   "keywords": [
-    "copy", "html", "syntax", "highlight", "highlighting", "color", "colors",
-    "google", "docs", "gdocs", "drive"
+    "copy",
+    "html",
+    "syntax",
+    "highlight",
+    "highlighting",
+    "color",
+    "colors",
+    "google",
+    "docs",
+    "gdocs",
+    "drive"
   ],
   "repository": "https://github.com/my-codeworks/copy-as-html",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
