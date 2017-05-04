@@ -21,31 +21,23 @@ Since I need to switch between RTF and HTML output (just because I use Google do
 
 # options
 
- * You can select RTF or HTML as output.
- * By default it will copy the result to the clipboard but you can add an external command to run it through instead.
- * You can select what font face and size it should use.
- * You can select what background color to use.
+ > This is targeted for v0.2.0, in 0.1.x font and color information is hardcoded, the output is HTML and it runs an external command, `copy-as-html`, that is available as a ruby script below.
 
-This gives you pretty free reign as to how you want to consume the result. I use it with this simple ruby script:
+You can create presets in the settings that you bind to key combinations. A preset is a named combination of:
+ * Output format, RTF or HTML.
+ * Font face and size.
+ * Background color.
+ * Optional external command, if not provided it will fall back to the default behaviour and copy the result to the clipboard.
+
+This gives you pretty free reign as to how you want to consume the result. I use it with the simple `copy-as-html` ruby script:
 
 ```ruby
 #!/usr/bin/env ruby
+# encoding: UTF-8
 
 require 'pasteboard'
 
-clipboard = Pasteboard.new
-
-lines = ''
-
-while line = gets do
-  lines += line
-end
-
-item = [
-  [Pasteboard::Type::HTML,     lines]
-]
-
-clipboard.put item
+Pasteboard.new.put [[ Pasteboard::Type::HTML, ARGF.read ]]
 ```
 
 Sending the HTML output to this snippet copies it into the OS X clipboard with the proper content type and allows it to be pasted correctly into Google docs. If you create similar solutions, for HTML or RTF, for other platforms please share them and we can build a library of tools to complement the package.
