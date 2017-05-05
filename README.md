@@ -21,15 +21,13 @@ Since I need to switch between RTF and HTML output (just because I use Google do
 
 # options
 
- > This is targeted for v0.2.0, in 0.1.x font and color information is hardcoded, the output is HTML and it runs an external command, `copy-as-html`, that is available as a ruby script below.
-
-You can create presets in the settings that you bind to key combinations. A preset is a named combination of:
+You can create presets in the settings, up to three of them, available using `alt+a 1` - `alt+a 3`. A preset is a named combination of:
  * Output format, RTF or HTML.
  * Font face and size.
  * Background color.
  * Optional external command, if not provided it will fall back to the default behaviour and copy the result to the clipboard.
 
-This gives you pretty free reign as to how you want to consume the result. I use it with the simple `copy-as-html` ruby script:
+This gives you pretty free reign as to how you want to consume the result. I use it with this simple `copy-as-html` ruby script:
 
 ```ruby
 #!/usr/bin/env ruby

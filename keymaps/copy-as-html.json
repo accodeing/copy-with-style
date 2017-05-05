@@ -1,6 +1,7 @@
 {
-  "atom-workspace": {
-    "alt-a": "copy-as-html:copy",
-    "cmd-alt-a": "copy-as-html:checkSelection"
+  "atom-text-editor": {
+    "alt-a 1": "copy-as-html:preset1",
+    "alt-a 2": "copy-as-html:preset2",
+    "alt-a 3": "copy-as-html:preset3"
   }
 }
