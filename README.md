@@ -3,6 +3,8 @@
 Ever which you could just copy the code from your editor into document or
 presentation, WITH the syntax highlighting? Well, now you can!
 
+![Demo where code is copied from Atom into Google docs with the syntax highlighting preserved.](http://link.my-codeworks.com/kKrj/copy-with-style-demo-html-in-google-docs.gif)
+
 # Options
 
 You can create presets in the settings, up to three of them, available using `alt+a 1` - `alt+a 3`. A preset is a named combination of:
