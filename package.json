@@ -1,5 +1,5 @@
 {
-  "name": "copy-as-html",
+  "name": "copy-with-style",
   "main": "./lib/copy-as-html.js",
   "version": "0.2.1",
   "description": "Copy file or selected code as HTML, including the Atom syntax highlighting colors, to clipboard.",
