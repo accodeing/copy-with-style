@@ -1,6 +1,6 @@
 {
   "name": "copy-with-style",
-  "main": "./lib/copy-as-html.js",
+  "main": "./lib/copy-with-style.js",
   "version": "1.0.0",
   "description": "Copy file or selected code as HTML, including the Atom syntax highlighting colors, to clipboard.",
   "keywords": [
@@ -16,7 +16,7 @@
     "gdocs",
     "drive"
   ],
-  "repository": "https://github.com/my-codeworks/copy-as-html",
+  "repository": "https://github.com/my-codeworks/copy-with-style",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

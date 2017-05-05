@@ -1,7 +1,7 @@
 {
   "atom-text-editor": {
-    "alt-a 1": "copy-as-html:preset1",
-    "alt-a 2": "copy-as-html:preset2",
-    "alt-a 3": "copy-as-html:preset3"
+    "alt-a 1": "copy-with-style:preset1",
+    "alt-a 2": "copy-with-style:preset2",
+    "alt-a 3": "copy-with-style:preset3"
   }
 }

@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Copy current file to clipboard as HTML",
-        "command": "copy-as-html:copy"
+        "command": "copy-with-style:copy"
       }
     ]
   },
@@ -12,14 +12,14 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "copy-as-html",
+          "label": "copy-with-style",
           "submenu": [
             {
               "label": "Copy current file to clipboard as HTML",
-              "command": "copy-as-html:copy"
+              "command": "copy-with-style:copy"
             },{
               "label": "Check selection",
-              "command": "copy-as-html:checkSelection"
+              "command": "copy-with-style:checkSelection"
             }
           ]
         }
