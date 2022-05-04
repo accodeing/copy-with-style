@@ -1,7 +1,7 @@
 {
   "name": "copy-with-style",
   "main": "./lib/main.js",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Copy file or selected code as HTML, including the Atom syntax highlighting colors, to clipboard.",
   "keywords": [
     "copy",
