@@ -1,7 +1,7 @@
 {
   "name": "copy-with-style",
   "main": "./lib/main.js",
-  "version": "1.2.1",
+  "version": "1.2.0",
   "description": "Copy file or selected code as HTML, including the Atom syntax highlighting colors, to clipboard.",
   "keywords": [
     "copy",
@@ -16,11 +16,12 @@
     "gdocs",
     "drive"
   ],
-  "repository": "https://github.com/my-codeworks/copy-with-style",
+  "repository": "https://github.com/accodeing/copy-with-style",
   "license": "MIT",
-  "author": "Jonas Schubert Erlandsson <jonas.schubert.erlandsson@my-codeworks.com> (http://my-codeworks.com/)",
+  "author": "Jonas Schubert Erlandsson <jonas@accodeing.com> (https://accodeing.com/)",
   "contributors": [
-    "Alexander Kotliarskyi <contact@frantic.im> (http://frantic.im/)"
+    "Alexander Kotliarskyi <alex.frantic@gmail.com> (https://frantic.im/)",
+    "John's Brew (https://github.com/johnsbrew)"
   ],
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
