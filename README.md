@@ -1,3 +1,7 @@
+>
+> :warning: Given that [Github has officially decided to shut down Atom](https://github.blog/2022-06-08-sunsetting-atom/), and that the [publishing of new versions of packages hasn't worked for over 6 months](https://github.com/atom/apm/issues/572), **I'm not going to maintain this addon.** If anyone would like to maintain it for the remaining Atom audience I'd be happy to transfer ownership of the project.
+>
+
 # Copy with style!
 
 Ever which you could just copy the code from your editor into document or
